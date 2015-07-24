@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 
 class Lightbox2Asset extends AssetBundle {
 
-    public $sourcePath = '@bower/lightbox2';
+    public $sourcePath = '@bower/lightbox2/dist';
     public $css = ['css/lightbox.css'];
     public $js = ['js/lightbox.js'];
     public $depends = ['yii\web\JqueryAsset'];
